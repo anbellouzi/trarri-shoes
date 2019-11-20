@@ -3,7 +3,7 @@ Date: 11/20/2019
 
 Prototype: Trarri Shoes
 
-Instruction: visit live version @ https://anbellouzi.github.io/trarri/
+Instruction: visit live version @ https://anbellouzi.github.io/trarri-shoes/
 
 Pages;
   1. home page -> index.html
