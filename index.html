@@ -25,10 +25,10 @@
   <!-- Home banner -->
   <div class="container-fluid text-center background-img mt-0 pt-0">
     <!-- NAVBAR -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-transparent ">
+    <nav class="navbar navbar-expand-lg navbar-light" id="navbar">
       <a class="navbar-brand" href="#"><img src="images/logo.png" width="180px" height="75px" alt=""></a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
+        <span class="navbar-toggler-icon text-white"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="nav navbar-nav ml-auto">
@@ -36,7 +36,7 @@
             <a class="nav-link  text-white" href="#">Home <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link  text-white" href="#">Features</a>
+            <a class="nav-link  text-white" href="detail.html">Detail</a>
           </li>
           <li class="nav-item">
             <a class="nav-link  text-white" href="#">Pricing</a>
@@ -54,12 +54,13 @@
       </div>
     </nav>
 
+    <br>
     <!-- banner text -->
     <div class="text-white text-center">
-      <p class="h2"> The Stock Market of Things </p>
+      <p class="h2"> The Stock Market of Shoes </p>
     </div>
     <div class="big text-center">
-      <p class="display-3 text-light">Buy and Sell Authentic sneakers</p>
+      <p class="display-3 text-light">Authentic Designer Brands</p>
     </div>
 
     <!-- Search form -->
@@ -79,14 +80,12 @@
 
       <!-- Search menu -->
       <div class="container-fluid">
-        <div class="col-10 offset-1 text-center">
+        <div class="row justify-content-center">
           <ul class="list-group list-group-horizontal-md">
             <li class="list-group-item bg-transparent text-light"><a href="#" class="btn text-light">SNEAKERS</a></li>
             <li class="list-group-item bg-transparent text-light"><a href="#" class="btn text-light">STREETWEAR</a></li>
             <li class="list-group-item bg-transparent text-light"><a href="#" class="btn text-light">COLLECTABLES</a></li>
             <li class="list-group-item bg-transparent text-light"><a href="#" class="btn text-light">HANDBAGS</a></li>
-            <li class="list-group-item bg-transparent text-light"><a href="#" class="btn text-light">WATCHES</a></li>
-            <li class="list-group-item bg-transparent text-light"><a href="#" class="btn text-light">GLASSES</a></li>
           </ul>
         </div>
       </div>
@@ -115,7 +114,7 @@
   </div>
 
   <!-- product carousel -->
-  <div class="container">
+  <div class="container" id="image_carousel">
     <label class="h1_header mt-5">Popular Brands</label>
     <div class="row justify-content-center">
         <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">

@@ -1,19 +1,14 @@
 Autor: Anas Bellouzi
 Date: 11/20/2019
 
-Prototype: Trarri Shoes
-
-Instruction: visit live version @ https://anbellouzi.github.io/trarri-shoes/
+Prototype: Sprite 1
 
 Pages;
-  1. home page -> index.html
+  1. home page
 
 Resources:
-  - HTML
-  - CSS
-  - Bootstrap
+  - Sketch
+
 
 Credit:
-  1. Bootstrap: https://bootswatch.com/cosmo/
   2. StockX: https://stockx.com/
-  3. Image Gallery: https://mdbootstrap.com/plugins/jquery/gallery/

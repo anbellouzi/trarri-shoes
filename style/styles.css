@@ -1,9 +1,20 @@
 .background-img {
-  background-image: url(https://www.kicksonfire.com/wp-content/uploads/2016/12/adidas-Yeezy-Boost-350-V2-21.jpg);
-  background-size: 100%;
+  background-image: url(https://www.kicksonfire.com/wp-content/uploads/2017/02/adidas-Yeezy-Boost-350-v2-11.jpg?x98166);
+  background-size: cover;
   background-position: center;
 }
 
+.background-img2 {
+  background-image: url(https://www.kicksonfire.com/wp-content/uploads/2016/12/adidas-Yeezy-Boost-350-V2-31.jpg?x98166);
+  background-size: cover;
+  background-position: center;
+}
+
+.nav-bg-yeezy {
+  background-image: url(https://www.kicksonfire.com/wp-content/uploads/2017/02/adidas-Yeezy-Boost-350-v2-11.jpg?x98166);
+  background-size: cover;
+  background-position: center;
+}
 .lighten-3 {
   background-color: #2d3e50;
 }
@@ -49,6 +60,20 @@
   font-style: normal;
 }
 
+.navbar-light .navbar-toggler-icon {
+  background-image: url("https://icon-library.net/images/white-menu-icon/white-menu-icon-4.jpg");
+  padding: 3px;
+  border-radius: 5px;
+}
+
+.fixed {
+  position: fixed;
+  z-index: 1000;
+  width: 100%;
+  margin-left: -15px;
+}
+
+
 @media (max-width: 450px) {
   .gallery {
     -webkit-column-count: 1;
@@ -58,6 +83,7 @@
     -moz-column-width: 100%;
     column-width: 100%;
   }
+
 }
 
 @media (max-width: 400px) {
