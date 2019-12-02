@@ -1,4 +1,14 @@
 $(function() {
+  // locate your element and add the Click Event Listener
+  document.getElementById("item_ul").addEventListener("click",function(e) {
+      // e.target is our targetted element.
+                  // try doing console.log(e.target.nodeName), it will result LI
+      if(e.target && e.target.nodeName == "LI") {
+          console.log(e.target.id + " was clicked");
+      }
+  });
+
+
   var selectedClass = "";
   $(".filter").click(function(){
     selectedClass = $(this).attr("data-rel");
@@ -12,7 +22,6 @@ $(function() {
 });
 
 let counter = 0
-
 window.onscroll = function() {
     var nav = document.getElementById('navbar');
     if ( window.pageYOffset > 200 ) {
@@ -41,6 +50,4 @@ window.onscroll = function() {
         }, 300);
         nav.classList.remove("fixed");
     }
-
-
 }
